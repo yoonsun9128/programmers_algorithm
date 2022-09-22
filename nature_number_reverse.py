@@ -8,3 +8,7 @@ def solution(n):
     return answer
 
 print(solution(12345))
+
+#type 2
+def solution(n):
+    return list(map(int, reversed(str(n))))
